@@ -1,0 +1,25 @@
+{
+  "name": "tests",
+  "version": "0.0.1",
+  "description": "Development Tests",
+  "main": "index.php",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"No test specified, yet.\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bernardo-albuquerque/tests.git"
+  },
+  "author": "Bernardo Albuquerque",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/bernardo-albuquerque/tests/issues"
+  },
+  "homepage": "https://github.com/bernardo-albuquerque/tests#readme"
+}

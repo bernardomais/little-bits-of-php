@@ -19,9 +19,9 @@
       <div class="row justify-content-md-center">
         <div class="col-md-10">
           <ul class="list-group">
-            <li class="list-group-item"><a href="./mysql.php">mysql.php</a> :: Testa a conexão com a base de dados local e retorna alguns valores.</li>
-            <li class="list-group-item"><a href="./info.php">info.php</a> :: Arquivo de informações sobre a configuração do PHP.</li>
-            <li class="list-group-item">A third item</li>
+            <li class="list-group-item"><a href="./php_modules/mysql.php">mysql.php</a> :: Testa a conexão com a base de dados local e retorna alguns valores.</li>
+            <li class="list-group-item"><a href="./php_modules/info.php">info.php</a> :: Arquivo de informações sobre a configuração do PHP.</li>
+            <li class="list-group-item"><a href="./php_modules/soap.php">soap.php</a> :: Consome dados de API SOAP com PHP.</li>
             <li class="list-group-item">A fourth item</li>
             <li class="list-group-item">And a fifth one</li>
           </ul>

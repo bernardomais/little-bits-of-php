@@ -1,11 +1,11 @@
 {
-  "name": "tests",
+  "name": "little-bits-of-php",
   "version": "0.0.1",
-  "description": "Development Tests",
+  "description": "Little bits of PHP: Tests, tries and notes.",
   "main": "index.php",
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "popper.js": "^1.15.0"
   },
   "devDependencies": {},
@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bernardo-albuquerque/tests.git"
+    "url": "git+https://github.com/bernardomais/little-bits-of-php.git"
   },
   "author": "Bernardo Albuquerque",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/bernardo-albuquerque/tests/issues"
+    "url": "https://github.com/bernardomais/little-bits-of-php/issues"
   },
-  "homepage": "https://github.com/bernardo-albuquerque/tests#readme"
+  "homepage": "https://github.com/bernardomais/little-bits-of-php#readme"
 }

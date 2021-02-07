@@ -3,7 +3,7 @@
   $host = '127.0.0.1';
   $db   = 'mysql';
   $user = 'root';
-  $pass = 'toor';
+  $pass = '$b5mXEV8g!%*';
   $charset = 'utf8mb4';
   
   $options = [
@@ -18,7 +18,7 @@
        throw new \PDOException($e->getMessage(), (int)$e->getCode());
   }
 
-  $data = $pdo->query("SELECT `Host`, `User`, `Password`, `Grant_priv` FROM `user`")->fetchAll();
+  $data = $pdo->query("SELECT `Host`, `User`, `Grant_priv` FROM `user`")->fetchAll();
 
 ?>
 <!doctype html>
@@ -43,12 +43,12 @@
         <div class="col-md-10">
             <table class="table table-bordered">
             <thead class="thead-dark">
-                <tr class="text-center"><th>Host</th><th>User</th><th>Password</th><th>Privileges</th></tr>
+                <tr class="text-center"><th>Host</th><th>User</th><th>Privileges</th></tr>
             </thead>
             <tbody>
                 <?php
                 foreach ($data as $row):
-                    echo '<tr class="text-center"><td>'.$row['Host'].'</td><td>'.$row['User'].'</td><td>'.$row['Password'].'</td><td>'.$row['Grant_priv'].'</td></tr>';
+                    echo '<tr class="text-center"><td>'.$row['Host'].'</td><td>'.$row['User'].'</td><td>'.$row['Grant_priv'].'</td></tr>';
                 endforeach;
                 ?>
             </tbody>

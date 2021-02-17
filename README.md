@@ -1,6 +1,6 @@
 # Little bits of PHP :elephant:
 
-## Tests, tries and notes about PHP7.x
+## Notes about PHP7.x
 
 See it in action on AWS EC2:
 
